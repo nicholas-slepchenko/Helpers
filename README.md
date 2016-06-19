@@ -1,2 +1,41 @@
 # Helpers
-My helpers
+
+There you can find some of my helpers, like a:
+* array
+  * find
+* console
+  * log
+* date
+  * timestamp
+* device
+  * find
+  * fullScreen
+  * isAndroid 
+  * isAndroidPhone
+  * isAndroidTablet
+  * isBlackberry
+  * isBlackberryPhone
+  * isBlackberryTablet
+  * isChrome
+  * isCordova
+  * isDesktop
+  * isFxos
+  * isFxosPhone
+  * isFxosTablet
+  * isIos
+  * isIpad
+  * isIphone
+  * isIpod
+  * isLandscape
+  * isMeego
+  * isMobile
+  * isNodeWebkit
+  * isPortrait
+  * isTablet
+  * isWindows
+  * isWindowsPhone
+  * isWindowsTablet 
+* validator
+* xml
+  * parse
+  * encode
