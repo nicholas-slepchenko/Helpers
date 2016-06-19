@@ -9,7 +9,7 @@ Helper.array = {
 	 * @param config {item, property, value}
 	 * @returns array of elements or object
 	 */
-	findInArray: function (array, config) {
+	find: function (array, config) {
 		config.item = config.item || 'all';
 		config.property = config.property || null;
 		config.value = config.value || null;
