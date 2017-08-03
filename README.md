@@ -34,8 +34,25 @@ There you can find some of my helpers, like a:
   * isTablet
   * isWindows
   * isWindowsPhone
-  * isWindowsTablet 
+  * isWindowsTablet
+* flash
+  * isAvailable
 * validator
+  * array
+  * boolean
+  * equal
+  * go
+  * lessOrEqual
+  * lessThan
+  * moreOrEqual
+  * moreThan
+  * notNull
+  * notUndefined
+  * number
+  * object
+  * onFail
+  * onSuccess
+  * string
 * xml
   * parse
   * encode
