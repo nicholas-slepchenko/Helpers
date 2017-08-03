@@ -1,0 +1,23 @@
+if (typeof Helper !== 'object') {
+    Helper = {};
+}
+
+Helper.flash = {
+    isAvailable: function () {
+        var installed = false,
+            enabled = false,
+            
+            type = 'application/x-shockwave-flash',
+            names = ['pepflashplayer.dll', 'libpepflashplayer.so'],
+            mimeTypes = navigator.mimeTypes,
+            
+            endsWith = function (str, suffix) {
+                return str.indexOf(suffix, str.length - suffix.length) !== -1;
+            };
+        
+        installed = mimeTypes && mimeTypes[type] && mimeTypes[type].enabledPlugin;
+        enabled = installed && (mimeTypes[type].enabledPlugin.filename === "pepflashplayer.dll" || mimeTypes[type].enabledPlugin.filename === "libpepflashplayer.so" || endsWith(mimeTypes[type].enabledPlugin.filename, "Chrome.plugin"));
+        
+        return {installed: installed, enabled: enabled};
+    }
+};
